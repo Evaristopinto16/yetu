@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(143, 145, 148);
+ }
+ .pai
+ { 
+    background-image: url(panoAfricano.jpg);
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+ .pai h1{
+ background-image: url(yetu.jpg);
+ background-size: 60px;
+ height: 60px;
+ border-radius: 40px;
+ padding-top: 30px;
+ font-family: arial;
+ font-size: 25px;
+ }
+ .pai ul{
+     
+    margin-right: 40px;
+    padding-right: 30px;
+    height: 50px;
+ }
+ .pai a{
+    color: white;
+    border: 1px solid rgb(255, 0, 242);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 9px;
+    font-size: 22px;
+    background-color: rgb(68, 66, 62);
+  }
+  .pai2 h2{
+    margin-top: 90px;
+    margin-left: 50%;
+  }
+  .filho1{
+    margin-left: 40%;
+    margin-right: 30%;
+     
+  }
+  .filho1 form{
+    
+    height: 50px;
+    
+  }
+  .filho1 input{
+    height: 40px;
+    width: 460px;
+    
+  }
+  

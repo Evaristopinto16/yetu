@@ -1,0 +1,89 @@
+ body{
+    background-color: rgb(143, 145, 148);
+ }
+ .pai
+ { 
+    background-image: url(panoAfricano.jpg);
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+ .pai h1{
+ background-image: url(yetu.jpg);
+ background-size: 60px;
+ height: 60px;
+ border-radius: 40px;
+ padding-top: 30px;
+ font-family: arial;
+ font-size: 25px;
+ }
+ .pai ul{
+     
+    margin-right: 40px;
+    padding-right: 30px;
+    height: 50px;
+ }
+ .pai a{
+    color: white;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 9px;
+    font-size: 22px;
+    background-color: rgb(68, 66, 62);
+  }
+  .pai2 ul{
+    display: flex;
+    justify-content:space-around;
+
+  }
+  .pai2 a{
+    color: white;
+    font-size: 20px;
+  }
+  .filho{
+     
+    display:flex;
+  }
+  .filho img{
+     
+     border-radius: 40px;
+  }
+  .filho h4{
+      font-size: 22px;
+  }
+ .pai3{
+     
+    width: 600px;
+ }
+ .filho2 button{
+    background-color: rgba(73, 77, 77, 0);
+    color: rgba(252, 252, 253, 0.836);
+ }
+ .pai3{
+    
+   display: flex;
+   flex-direction: column;
+   margin-right: 30%;
+   margin-left:30%;
+    
+   
+ }
+ @media(max-width: 1000px) 
+ {
+   
+   .pai{
+       
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .pai3{
+      
+      width: 500px;
+      margin-right: 25%;
+      margin-left: 25%;
+   }
+ }
